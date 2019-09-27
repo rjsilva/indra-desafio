@@ -15,7 +15,7 @@ Tecnologias
 - Selenium
 - Junit
 
-Rodar os Testes
+
 
 Pré-Requisito: Atualizar o Projeto Api e Web antes de rodar os testes, para baixar as dependências do maven
 	
