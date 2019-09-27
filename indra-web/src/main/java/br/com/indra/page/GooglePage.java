@@ -41,6 +41,8 @@ public class GooglePage {
 		this.inputPesquisa.sendKeys(filmeOrDiretor);
 		SeleniumRobot.implicityWait();
 		this.buttonPesquisa.click();
+		SeleniumRobot.takeSnapShot();
+	 	SeleniumRobot.generateEvidence(filmeOrDiretor);
 
 	}
 

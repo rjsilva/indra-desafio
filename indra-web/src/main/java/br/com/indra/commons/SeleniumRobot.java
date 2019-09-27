@@ -1,8 +1,10 @@
 package br.com.indra.commons;
 
 import java.io.File;
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
@@ -16,12 +18,10 @@ import br.com.indra.utils.DriverInitializer;
  * @author Ronaldo Silva
  *
  */
-public class SeleniumRobot{
+public class SeleniumRobot {
 
-	
 	private static WebDriverWait wait;
 	private static File SrcFile;
-	
 
 	/**
 	 * espera o elemento aparecer na p�gina
@@ -50,8 +50,17 @@ public class SeleniumRobot{
 	 */
 	public static void takeSnapShot() {
 
-		SrcFile = ((TakesScreenshot)DriverInitializer.getDriver()).getScreenshotAs(OutputType.FILE);
+		SrcFile = ((TakesScreenshot) DriverInitializer.getDriver()).getScreenshotAs(OutputType.FILE);
 
 	}
 
+	public static void generateEvidence(String casoTeste) {
+
+		String destFile = "indra-web/screenshots";
+		try {
+			FileUtils.copyFile(SrcFile, new File(destFile + "/" + casoTeste.replace(" ", "_") + ".png"));
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
 }

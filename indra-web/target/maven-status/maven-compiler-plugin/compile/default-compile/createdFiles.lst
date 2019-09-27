@@ -1,0 +1,7 @@
+br/com/indra/model/Filme.class
+br/com/indra/utils/DriverInitializer.class
+br/com/indra/model/Diretor.class
+br/com/indra/utils/DataBaseFilmes.class
+br/com/indra/commons/Urls.class
+br/com/indra/page/GooglePage.class
+br/com/indra/commons/SeleniumRobot.class

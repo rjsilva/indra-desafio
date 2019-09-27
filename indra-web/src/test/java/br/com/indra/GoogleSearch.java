@@ -6,6 +6,7 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 
+import br.com.indra.commons.SeleniumRobot;
 import br.com.indra.commons.Urls;
 import br.com.indra.page.GooglePage;
 import br.com.indra.utils.DataBaseFilmes;
