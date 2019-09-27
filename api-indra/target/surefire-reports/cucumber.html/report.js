@@ -61,7 +61,7 @@ formatter.match({
   "location": "MensagemSteps.queFacoUmaRequisicaoGETTodos()"
 });
 formatter.result({
-  "duration": 3235958815,
+  "duration": 4882194495,
   "status": "passed"
 });
 formatter.match({
@@ -74,7 +74,7 @@ formatter.match({
   "location": "MensagemSteps.devoReceberUmStatusCode(int)"
 });
 formatter.result({
-  "duration": 4781277,
+  "duration": 4509038,
   "status": "passed"
 });
 formatter.match({
@@ -87,7 +87,7 @@ formatter.match({
   "location": "MensagemSteps.oTituloDaMensagem(String)"
 });
 formatter.result({
-  "duration": 709442640,
+  "duration": 620150245,
   "status": "passed"
 });
 });

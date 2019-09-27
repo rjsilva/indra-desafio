@@ -1,5 +1,5 @@
-/Users/juliana/Workspace-API/desafio-indra/api-indra/src/main/java/br/com/indra/dto/MensagemDTO.java
-/Users/juliana/Workspace-API/desafio-indra/api-indra/src/main/java/br/com/indra/config/EndPoint.java
-/Users/juliana/Workspace-API/desafio-indra/api-indra/src/main/java/br/com/indra/controllers/MensagemController.java
-/Users/juliana/Workspace-API/desafio-indra/api-indra/src/main/java/br/com/indra/config/Token.java
-/Users/juliana/Workspace-API/desafio-indra/api-indra/src/main/java/br/com/indra/service/Http.java
+/Users/juliana/indra/indra-desafio/api-indra/src/main/java/br/com/indra/config/Token.java
+/Users/juliana/indra/indra-desafio/api-indra/src/main/java/br/com/indra/dto/MensagemDTO.java
+/Users/juliana/indra/indra-desafio/api-indra/src/main/java/br/com/indra/config/EndPoint.java
+/Users/juliana/indra/indra-desafio/api-indra/src/main/java/br/com/indra/service/Http.java
+/Users/juliana/indra/indra-desafio/api-indra/src/main/java/br/com/indra/controllers/MensagemController.java
